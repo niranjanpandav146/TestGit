@@ -1,0 +1,12 @@
+Pre-requisite
+1.Eclipse
+2.Java8 and above version
+======================================================================================================
+
+1.Import project in Eclipse from gitHub
+2.After importing, RightClick on project folder --> Select Maven--> Select Download sources
+3.Open src/test/resources package --> Click on config.properties --> Please provide appropriate environment to run automation tests Ex. test,local,prod
+4.Identify testng.xml and right click on it
+5.Goto Run As -> Select TestNG Suite
+6.After test run -> Test results will be available under Report folder with file name as : ExecutionReport.html
+ 
